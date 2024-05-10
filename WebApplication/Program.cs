@@ -2,6 +2,7 @@ using Npgsql;
 using WebApplication;
 
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
+// some changes
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
